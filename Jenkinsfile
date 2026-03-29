@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main',
+                git branch: 'develop',
                     url: 'https://github.com/Shikhar-Tandon15/DevOps_Project_G15.git'
             }
         }
